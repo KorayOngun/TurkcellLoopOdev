@@ -11,13 +11,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhileMax", "WhileMax\WhileM
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhileMin", "WhileMin\WhileMin.csproj", "{4A700743-CE00-472A-AB49-51E556D78840}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForTotal", "ForTotal\ForTotal.csproj", "{13C837D8-CF48-46E5-8E6F-C8B3769E3DD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForTotal", "ForTotal\ForTotal.csproj", "{13C837D8-CF48-46E5-8E6F-C8B3769E3DD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForAverage", "ForAverage\ForAverage.csproj", "{1FC18451-E273-4348-8344-7E6FB03A415C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForAverage", "ForAverage\ForAverage.csproj", "{1FC18451-E273-4348-8344-7E6FB03A415C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForMin", "ForMin\ForMin.csproj", "{0C1635D9-F259-423C-A856-72CBA45154AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForMin", "ForMin\ForMin.csproj", "{0C1635D9-F259-423C-A856-72CBA45154AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForMax", "ForMax\ForMax.csproj", "{3A0BDF8B-BE21-49E9-9C0E-93B4D6BC1168}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForMax", "ForMax\ForMax.csproj", "{3A0BDF8B-BE21-49E9-9C0E-93B4D6BC1168}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberReading", "NumberReading\NumberReading.csproj", "{2CC2A654-322D-451A-BAE1-98A05295AFCD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{3A0BDF8B-BE21-49E9-9C0E-93B4D6BC1168}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A0BDF8B-BE21-49E9-9C0E-93B4D6BC1168}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A0BDF8B-BE21-49E9-9C0E-93B4D6BC1168}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CC2A654-322D-451A-BAE1-98A05295AFCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CC2A654-322D-451A-BAE1-98A05295AFCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CC2A654-322D-451A-BAE1-98A05295AFCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CC2A654-322D-451A-BAE1-98A05295AFCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
