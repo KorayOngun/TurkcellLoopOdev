@@ -10,7 +10,7 @@ while (index < lastIndex)
 {
     total += numbers[index++];
 }
-average = total / numbers.Length;
+average = total / lastIndex;
 Console.WriteLine($"Ortalama {average}");
 
 //while (true)
