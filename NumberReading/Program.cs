@@ -2,24 +2,31 @@
 
 Okuma okuma = new Okuma();
 string result = string.Empty;
-
-
-int number = 11;
-// number = 1123076
-if (number == 0)
+try
 {
-    Console.WriteLine("sıfır");
+    ulong number = Convert.ToUInt64(Console.ReadLine());
+    if (number == 0)
+    {
+        Console.WriteLine("sıfır");
+    }
+    else
+    {
+        string sNumber = number.ToString();
+        //sNumber = "1123076"
+
+        okuma.Bol(ref sNumber);
+        // sNumber = "1,123,076
+
+
+        result = okuma.Oku(sNumber);
+
+        Console.WriteLine(result);
+        Console.WriteLine(sNumber);
+    }
 }
-else
+catch (Exception)
 {
-    string sNumber = number.ToString();
-    //sNumber = "1123076"
-    okuma.Bol(ref sNumber);
-
-    string[] numbers = sNumber.Split(',');
-    // numbers = {"1","123","076"}
-
-
-    result = okuma.Oku(numbers);
-    Console.WriteLine(result);
+    Console.WriteLine("0-18446744073709551615 aralığında bir değer girin.");
+    
 }
+

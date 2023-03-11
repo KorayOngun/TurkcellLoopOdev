@@ -8,10 +8,12 @@ namespace NumberReading
 {
     public class Okuma
     {
+        
+        // 100  200
         string[] birler = { "", "bir", "iki", "üç", "dört", "beş", "altı", "yedi", "sekiz", "dokuz" };
         string[] onlar = { "", "on", "yirmi", "otuz", "kırk", "elli", "altmış", "yetmiş", "seksen", "doksan" };
         string yuz = "yüz";
-        string[] bm = { "", "bin", "milyon" };
+        string[] bm = { "", "bin", "milyon","milyar","trilyon","katrilyon","kentilyon"};
         public void Bol(ref string s)
         {
             int j = 0;
@@ -22,8 +24,14 @@ namespace NumberReading
                 j++;
             }
         }
-        public string Oku(string[] numbers)
+        public string Oku(string sNumber)
         {
+            //sNumber = 1,123,076
+
+            string[] numbers = sNumber.Split(',');
+            // numbers = {"1","123","076"}
+
+
             string result = string.Empty;
             for (int i = 0; i < numbers.Length; i++)
             {
