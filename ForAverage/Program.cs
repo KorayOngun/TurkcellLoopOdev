@@ -5,7 +5,7 @@ for (int i = 0; i < index; i++)
 {
     total += numbers[i];
 }
-double average = total / numbers.Length;
+double average = total / index;
 Console.WriteLine($"Ortalama {average}");
 
 
