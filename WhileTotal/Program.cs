@@ -3,7 +3,7 @@
 int total = 0;
 int index = 0;
 
-// index++ bir satır sonra çalışacağı için <numbers.length-1> değil
+
 int lastIndex = numbers.Length;
 
 while (index < lastIndex)
